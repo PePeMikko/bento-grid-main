@@ -1,0 +1,78 @@
+.attribution {
+     font-size: 0.6875rem; text-align: center;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.grid-container {
+    display: grid;
+    grid-template:
+        'create header header schedule'
+        '. manage maintain schedule'
+        'write audience grow grow';
+    gap: 5vh;
+}
+
+.create {
+    border: 1vh solid hsl(31, 66%, 93%); 
+    grid-area: create;
+    background-color: hsl(31, 66%, 93%);
+    border-radius: 1vh;
+}
+
+.header {
+    border: 1vh solid hsl(256, 67%, 59%);
+    grid-area: header;
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 1vh;
+}
+
+.schedule {
+    border: 1vh solid hsl(254, 88%, 90%);
+    grid-area: schedule;
+    background-color: hsl(254, 88%, 90%);
+    border-radius: 1vh;
+}
+
+.manage {
+    border: 1vh solid hsl(0, 0%, 100%);
+    grid-area: manage;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1vh;
+}
+
+.maintain {
+    border: 1vh solid hsl(39, 100%, 71%);
+    grid-area: maintain;
+    background-color: hsl(39, 100%, 71%);
+    border-radius: 1vh;
+}
+
+.write {
+    border: 1vh solid hsl(39, 100%, 71%);
+    grid-area: write;
+    background-color: hsl(39, 100%, 71%);
+    border-radius: 1vh;
+}
+
+.audience {
+    border: 1vh solid hsl(0, 0%, 100%);
+    grid-area: audience;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1vh;
+}
+
+.grow {
+    border: 1vh solid hsl(256, 67%, 59%);
+    grid-area: grow;
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 1vh;
+}
