@@ -14,11 +14,14 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template:
+    grid-template-areas:
         'create header header schedule'
-        '. manage maintain schedule'
+        'create header header schedule'
+        'write manage maintain schedule'
         'write audience grow grow';
-    gap: 5vh;
+    grid-template-columns: 25rem 40rem 40rem;
+    grid-template-rows: 10rem 20rem;
+    gap: 2vh 4vh;
 }
 
 .create {
