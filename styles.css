@@ -29,7 +29,7 @@ h2 {
 }
 
 .create > h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 p > span {
@@ -38,15 +38,20 @@ p > span {
 }
 
 .grow > h2 {
-    text-align: right;
+    width: 50%;
+    display: inline-block;
+    text-align: ;
 }
 
 .followers {
     width: 400px;
     height: 350px;
-    margin: ;
+    margin: auto;
 }
 
+.ai-content {
+    width: 100%;
+}
 .grid-container {
     display: grid;
     grid-template-areas:
